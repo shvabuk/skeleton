@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.scss"],"names":[],"mappings":"AAAA,KACI,iBAAA,KAGJ,KACI,QAAA,YAAA,QAAA,KADJ,UAIQ,iBAAA","file":"style.min.css","sourcesContent":["body {\r\n    background-color: #ccc;\r\n}\r\n\r\n.foo {\r\n    display: flex;\r\n\r\n    .bar {\r\n        background-color: #fff;\r\n    }\r\n}\r\n"]}

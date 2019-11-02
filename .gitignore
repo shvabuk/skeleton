@@ -20,10 +20,13 @@ Thumbs.db
 .metadata
 *.iml
 *.ipr
-.vscode
+# Commented only for skeleton
+#.vscode
 nbproject
 .~lock.*
 .buildpath
 composer.lock
 package-lock.json
 .nyc_output/
+
+/vendor

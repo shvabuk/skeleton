@@ -1,39 +1,41 @@
 {
   "name": "skeleton",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "skeleton",
-  "main": "index.js",
+  "main": "dist/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ostap Shvab",
   "license": "MIT",
   "devDependencies": {
-    "@babel/core": "^7.4.5",
-    "babel-preset-env": "^1.7.0",
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
     "browser-sync": "^2.26.7",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.1",
     "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^6.1.0",
+    "gulp-autoprefixer": "^7.0.1",
     "gulp-babel": "^8.0.0",
     "gulp-clean-css": "^4.2.0",
     "gulp-concat": "^2.6.1",
+    "gulp-eslint": "^6.0.0",
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^2.6.5",
+    "gulp-stylelint": "^10.0.0",
     "gulp-twig": "^1.2.0",
     "gulp-uglify": "^3.0.2",
-    "node-sass": "^4.12.0"
-  },
-  "browserslist": [
-    "last 1 major version",
-    ">= 1%",
-    "Chrome >= 45",
-    "Firefox >= 38",
-    "Edge >= 12",
-    "Explorer >= 10",
-    "iOS >= 9",
-    "Safari >= 9",
-    "Android >= 4.4",
-    "Opera >= 30"
-  ]
+    "node-notifier": "^6.0.0",
+    "node-sass": "^4.13.0",
+    "prettier": "^1.18.2",
+    "stylelint": "^11.1.1",
+    "stylelint-config-prettier": "^6.0.0",
+    "stylelint-config-recommended-scss": "^4.0.0",
+    "stylelint-config-sass-guidelines": "^6.1.0",
+    "stylelint-scss": "^3.12.0"
+  }
 }

@@ -1,0 +1,11 @@
+body {
+    background-color: #ccc;
+}
+
+.foo {
+    display: flex;
+
+    .bar {
+        background-color: #fff;
+    }
+}

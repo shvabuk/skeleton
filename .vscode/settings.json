@@ -1,0 +1,6 @@
+{
+    "editor.renderWhitespace": "boundary",
+    "phpcs.standard": "PSR2",
+    "files.eol": "\n",
+    "twigcs.executablePath": "./vendor/bin/twigcs"
+}

@@ -1,0 +1,23 @@
+{
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module"
+    },
+    "globals": {
+        "jQuery": true
+    },
+    "env": {
+        "es6": true,
+        "mocha": true,
+        "browser": true,
+        "node": true
+    },
+    "extends": ["airbnb-base", "prettier"],
+    "plugins": [
+        "import",
+        "prettier"
+    ],
+    "rules": {
+        "prettier/prettier": ["error"]
+    }
+}
