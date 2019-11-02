@@ -1,6 +1,6 @@
 # Skeleton
 
-Skeleton with basic gulp settings (js, scss, php twig)
+Skeleton with basic gulp settings (js, scss, php, twig).
 
 ## Main file
 

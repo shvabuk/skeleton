@@ -1,7 +1,7 @@
 {
   "name": "skeleton",
   "version": "1.0.1",
-  "description": "skeleton",
+  "description": "Skeleton with basic gulp settings (js, scss, php, twig).",
   "main": "dist/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

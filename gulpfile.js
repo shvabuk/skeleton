@@ -21,10 +21,7 @@ const json = JSON.parse(fs.readFileSync('./package.json'));
 
 const path = {
     js: {
-        src: [
-            // './src/js/throttle.js',
-            './src/js/index.js',
-        ],
+        src: ['./src/js/index.js'],
         watch: './src/js/**/*.js',
         dist: './dist/js',
     },
@@ -156,11 +153,11 @@ gulp.task('watch', () => {
         gulp.series(gulp.parallel('twig', 'twig-lint'), 'reload')
     );
     gulp.watch(
-        path.js.watch,
+        path.css.watch,
         gulp.series(gulp.parallel('css', 'css-lint'), 'reload')
     );
     gulp.watch(
-        path.css.watch,
+        path.js.watch,
         gulp.series(gulp.parallel('js', 'js-lint'), 'reload')
     );
 });
