@@ -1,5 +1,9 @@
 /node_modules
 .sass-cache/
+/vendor
+
+*.log
+*.log.*
 
 .DS_Store
 .DS_Store?
@@ -8,10 +12,9 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
-
-*.log
-*.log.*
-
+.cache
+.tmproj
+*.esproj
 *.sublime*
 .classpath
 .project
@@ -20,13 +23,10 @@ Thumbs.db
 .metadata
 *.iml
 *.ipr
-# Commented only for skeleton
-#.vscode
+.vscode
 nbproject
 .~lock.*
 .buildpath
 composer.lock
 package-lock.json
 .nyc_output/
-
-/vendor

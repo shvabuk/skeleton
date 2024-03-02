@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sources":["../../../src/js/index.js"],"sourcesContent":["console.log('Hello world!');\r\n"],"names":["console","log"],"mappings":";;;;;;;;;;;CAAAA,OAAO,CAACC,GAAG,CAAC,cAAc,CAAC;;;;;;"}

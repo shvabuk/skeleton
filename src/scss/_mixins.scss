@@ -1,0 +1,33 @@
+@use 'sass:color';
+
+$breakpoints: (
+    "sm": $breakpoint-sm,
+    "md": $breakpoint-md,
+    "lg": $breakpoint-lg,
+    "xl": $breakpoint-xl,
+    "xxl": $breakpoint-xxl
+);
+
+@mixin break($breakpoint) {
+    @if  map-has-key($breakpoints, $breakpoint) {
+        @media (min-width:  map-get($breakpoints, $breakpoint)) {
+            @content;
+        }
+    }
+}
+
+@mixin background-color($color, $lightness_percent: null, $blackness_percent: null) {
+    @if ($lightness_percent) {
+        background-color: color.scale($color, $lightness: $lightness_percent);
+    } @else {
+        background-color: color.scale($color, $blackness: $blackness_percent);
+    }
+}
+
+@mixin color($color, $lightness_percent: null, $blackness_percent: null) {
+    @if ($lightness_percent) {
+        color: color.scale($color, $lightness: $lightness_percent);
+    } @else {
+        color: color.scale($color, $blackness: $blackness_percent);
+    }
+}

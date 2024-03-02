@@ -1,9 +1,0 @@
-{
-    "name": "shvabuk/skeleton",
-    "version": "1.0.1",
-    "description": "Skeleton with basic gulp settings (js, scss, php, twig).",
-    "require-dev": {
-        "squizlabs/php_codesniffer": "3.*",
-        "friendsoftwig/twigcs": "^3.2"
-    }
-}

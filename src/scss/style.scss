@@ -1,11 +1,7 @@
-body {
-    background-color: #ccc;
-}
+@import "variables";
+@import "mixins";
 
-.foo {
-    display: flex;
+@import "normalize";
+@import "keyframes";
 
-    .bar {
-        background-color: #fff;
-    }
-}
+@import "base";
